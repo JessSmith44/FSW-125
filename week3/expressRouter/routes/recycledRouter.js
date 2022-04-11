@@ -9,6 +9,10 @@ let recycledItems = [
     { item: "Plastic", description: "Grocery bags", recyclable: "yes", pricePerUnit: "$1.00", _id: uuidv4() },
 ];
 
+// recycledItems.get('/', function (req, res) {
+//     res.render('index', {});
+//   });
+
 recycledRouter.get('/', (req, res) => {
     res.send(recycledItems)
 });
