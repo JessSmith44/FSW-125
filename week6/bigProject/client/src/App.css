@@ -1,0 +1,57 @@
+
+h1, p {
+  margin: 5px;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+  background-image: url(recycle-sign.png);
+}
+.items{
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+  background-color: rgb(200, 246, 201);
+  opacity: 0.7;
+}
+.del-btn{
+  border-radius: 25px;
+  background-color: aquamarine;
+  margin-left: 350px;
+  width: 75px
+}
+.add-btn{
+    border-radius: 25px;
+    background-color: aquamarine;
+    width: 75px
+}
+.edit-btn{
+  border-radius: 25px;
+  background-color: aquamarine;
+  margin-left: 25px;
+  width: 75px
+}
+.close-btn{
+  border-radius: 25px;
+  background-color: aquamarine;
+  margin-left: 25px;
+  width: 75px
+}
+form{
+  margin: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  justify-content: center;
+}
+input{
+  margin: 2px;
+  border-radius: 5px;
+  background-color: honeydew;
+  justify-content: center;
+}

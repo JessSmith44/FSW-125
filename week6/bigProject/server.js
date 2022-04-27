@@ -1,17 +1,17 @@
 const express = require('express');
 const app = express();
 const { v4: uuidv4 } = ('uuid');
-const todoListRouter = require('./routes/todoList');
-const groceriesRouter = require('./routes/groceries');
 
+const recycledRouter = require('./routes/recycledRouter');
+const itemsIntake = require('./routes/itemsIntake');
 
-const PORT = 3000;
+const PORT = 9000;
 
 app.use(express.json());
 
-app.use('/todoList', todoListRouter)
+app.use('/recycledItems', recycledRouter)
 
-app.use('/groceries', groceriesRouter)
+app.use('/itemsIntake', itemsIntake)
 
 app.listen(PORT, () => {
     console.log(`App started on port: ${PORT}`)
